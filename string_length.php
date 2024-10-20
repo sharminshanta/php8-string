@@ -9,4 +9,14 @@
 $str = "Hello, Programming!";
 $length = strlen($str);
 
-echo $length;  // Output: 19
+// echo $length;  // Output: 19
+
+
+// String Length: without built-in function
+$i = 0;
+
+while (isset($str[$i])) {
+    $i++;
+}
+
+echo $i; // Output: 19
