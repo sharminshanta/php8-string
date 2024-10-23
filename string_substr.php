@@ -15,6 +15,7 @@
 $str = "Hello, Programmers!";
 
 // Extract "Programmers!"
-$substring = substr($str, 7, 12);
+$substring = substr($str, 7, 12); // with $length
+// $substring = substr($str, 7); // without $length
 
 echo $substring;  // Output: Programmers!
